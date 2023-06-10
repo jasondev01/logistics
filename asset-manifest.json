@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/logistics/static/css/main.c1d601c8.css",
+    "main.css": "/logistics/static/css/main.4cbaeebc.css",
     "main.js": "/logistics/static/js/main.1cbce8f4.js",
     "static/js/787.8aaa4a75.chunk.js": "/logistics/static/js/787.8aaa4a75.chunk.js",
     "static/media/banner2.webp": "/logistics/static/media/banner2.0f54412b0c89c8a150a0.webp",
@@ -34,12 +34,12 @@
     "static/media/truck.webp": "/logistics/static/media/truck.374fbc3d96b2876137c9.webp",
     "index.html": "/logistics/index.html",
     "static/media/checklist.webp": "/logistics/static/media/checklist.9dbeebc9f4797c2a3dd5.webp",
-    "main.c1d601c8.css.map": "/logistics/static/css/main.c1d601c8.css.map",
+    "main.4cbaeebc.css.map": "/logistics/static/css/main.4cbaeebc.css.map",
     "main.1cbce8f4.js.map": "/logistics/static/js/main.1cbce8f4.js.map",
     "787.8aaa4a75.chunk.js.map": "/logistics/static/js/787.8aaa4a75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d601c8.css",
+    "static/css/main.4cbaeebc.css",
     "static/js/main.1cbce8f4.js"
   ]
 }
