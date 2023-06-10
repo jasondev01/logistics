@@ -47,6 +47,7 @@
     }
 }
 
+/* =========== MEDIA QUERY (SMALL DEVICES) ============== */
 @media screen and (max-width: 800px ) {
     .container.blog__container {
         width: var(--container-width-sm);
@@ -62,5 +63,12 @@
     .blogs__item {
         width: 300px;
         margin-left: -100px;
+    }
+}
+
+@media screen and (max-width: 390px ) {
+    .blogs__item {
+        width: 300px;
+        margin-left: -111px;
     }
 }
