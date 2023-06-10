@@ -1,0 +1,138 @@
+#about {
+    background: url(../../../assets/about_bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about__container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.about__image {
+    width: 46%;
+    border-radius: 5rem;
+    height: 400px;
+    box-shadow: var(--box-shadow);
+}
+
+.about__image img {
+    border-radius: 5rem;
+    height: 100%;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 54%;
+}
+
+.about__content p {
+    font-size: 17px;
+}
+
+.about__content a {
+    display: flex;
+    gap: 5px;
+}
+
+.about__content-title h1 {
+    margin-bottom: 1rem;
+}
+
+.about__content-title span {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.about__content-perks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+.about__content-perk {
+    width: 19%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.about__content-perk:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.about__content-perk p {
+    text-align: center;
+    color: var(--primary-color-variant);
+    font-weight: 500;
+}
+
+.about__content-perk img {
+    width: 65%;
+}
+
+.about__button-icon {
+    font-size: 1.4rem;
+}
+
+/* =========== MEDIA QUERY (lAPTOP DEVICES) ============== */
+@media screen and (max-width: 1024px ) {
+    .about__content-perks {
+        gap: 0.2rem;
+    }
+
+    .about__content-perk {
+        width: 18%;
+    }
+
+    .about__content-title h1 {
+        font-size: 2.4rem;
+    }
+
+    .about__content p,
+    .about__content span{
+        font-size: 16px;
+    }
+
+    .about__content-perk p {
+        font-size: 12px;
+    }
+}
+
+/* =========== MEDIA QUERY (TABLET) ============== */
+@media screen and (max-width: 800px ) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about__image,
+    .about__content {
+        width: 100%;
+    }
+}
+
+/* =========== MEDIA QUERY (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px ) {
+    .container.about__container {
+        width: var(--container-width-md);
+    }
+
+    .about__content-title h1 {
+        font-size: 1.8rem;
+    }
+    
+    .about__content-perk p {
+        font-size: 8px;
+    }
+}

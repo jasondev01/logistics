@@ -1,0 +1,110 @@
+#services {
+    background: url(../../../assets/services_bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services__container {
+    padding: 4rem 0;
+}
+
+.services__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    padding: 2.2rem 3rem;
+    background: var(--primary-bg);
+    gap: 1.4rem;
+    border-radius: 1.4rem 1.4rem 1.4rem 4.6rem;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.services__item:hover {
+    border-radius: 1.4rem;
+}
+
+.services__item p {
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.services__detail-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services__detail-head img{
+    width: 4.5rem;
+}
+
+.services__detail-head h3 {
+    color: var(--text-color-variant);
+}
+
+.services__item a {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 500;
+}
+
+.services__button-icon {
+    font-weight: 500;
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: var(--transition);
+    color: var(--primary-color-variant);
+}
+
+.services__item a:hover .services__button-icon {
+    opacity: 1;
+}
+
+/* =========== MEDIA QUERY (lAPTOP DEVICES) ============== */
+@media screen and (max-width: 1024px ) {
+    .services__items {
+        width: 98%;
+        gap: 1.2rem;
+    }
+    .services__item {
+        padding: 1.5rem;
+        border-radius: 1.2rem 1.2rem 1.2rem 4rem;
+    }
+    .services__item p {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* =========== MEDIA QUERY (TABLET) ============== */
+@media screen and (max-width: 800px ) {
+    .services__items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+    }
+    
+    .services__container h2 {
+        text-align: center;
+    }
+
+    .services__item {
+        padding: 1.5rem 2rem;
+    }
+}
+
+/* =========== MEDIA QUERY (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px ) {
+    .services__items {
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
+    }
+}
