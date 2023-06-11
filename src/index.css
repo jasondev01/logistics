@@ -38,24 +38,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
-    width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--overlay-bg-color);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--primary-color-variant);
-    transition: var(--transition);
-    border-radius: 5px;
-    max-height: 5px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: var(--primary-color)
-} */
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-bg-variant);
@@ -149,12 +131,6 @@ img {
         overflow: hidden;
     }
 
-}
-/* ================== MEDIA QUERIES (Tablet DEVICES) =============== */
-@media screen and (max-width: 800px) {
-    /* ::-webkit-scrollbar {
-        display: none;
-    } */
 }
 /* ================== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
