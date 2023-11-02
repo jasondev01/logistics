@@ -1,9 +1,4 @@
-import React from 'react'
-import './logistics.css'
-import { FaListUl } from 'react-icons/fa'
-import { FaCalculator } from 'react-icons/fa'
-import { FaSearch } from 'react-icons/fa'
-import { FaRegHandshake } from 'react-icons/fa'
+import { FaListUl, FaCalculator, FaSearch, FaRegHandshake } from 'react-icons/fa'
 
 const Logistics = () => {
     return (

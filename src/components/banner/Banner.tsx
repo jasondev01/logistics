@@ -1,24 +1,15 @@
-import React from 'react'
-import Banner1 from '../../../assets/banner1.webp'
-import Banner2 from '../../../assets/banner2.webp'
-import Banner3 from '../../../assets/banner3.webp'
-
-// import Swiper core and required modules
-import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import "swiper/css/effect-fade";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './banner.css'
+
+import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 
 const Banner = () => {
     return (
         <Swiper 
-            modules={[Navigation, Pagination, Autoplay, EffectFade]}
             spaceBetween={40}
             effect={"fade"}
             slidesPerView={1}
@@ -29,10 +20,11 @@ const Banner = () => {
                 disableOnInteraction: true,
               }}
             pagination={{ clickable: true }}
-            className='mySwiper'
+            modules={[Navigation, Pagination, Autoplay, EffectFade]}
+
         >   <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src={Banner1} alt="First Banner" />
+                    <img src="/assets/banner1.webp" alt="Happiness in Every Cargo" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>Happiness in Every Cargo.</p>
@@ -45,7 +37,7 @@ const Banner = () => {
            
             <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src={Banner2} alt="Second Banner" />
+                    <img src="/assets/banner2.webp" alt="We are ISO Certified!" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>We are ISO Certified!</p>
@@ -57,7 +49,7 @@ const Banner = () => {
             </SwiperSlide>
              <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src={Banner3} alt="Third Banner" />
+                    <img src="/assets/banner3.webp" alt="We Drive Your Business!" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>We Do More than Logistics.</p>

@@ -1,10 +1,4 @@
-import React from 'react'
-import './footer.css'
-import Logo from '../../assets/logistics.png'
-import { BsFacebook } from 'react-icons/bs'
-import { BsYoutube } from 'react-icons/bs'
-import { BsLinkedin } from 'react-icons/bs'
-import { BsInstagram } from 'react-icons/bs'
+import { BsFacebook, BsYoutube, BsLinkedin, BsInstagram } from 'react-icons/bs'
 
 const Footer = () => {
     return (
@@ -13,16 +7,16 @@ const Footer = () => {
             <div className='footer__overlay'></div>
             <div className='container footer__container'>
                 <div className='footer__box'>
-                    <img src={Logo} alt="Logistics Logo" />
+                    <img src="/assets/logistics.png" alt="Footer Logo" />
                     <a href='#'>Bldg. 10B, Central International Commercial Complex, Malakanyang Road, Manila City, 1302 Philippines</a>
                 </div>
                 <div className="footer__box">
                     <div className="footer__box-number">
-                        <h4>Call Us Now</h4>
+                        <p>Call Us Now</p>
                         <a href="tel:283963333">(02) 8396 - 3333 </a>
                     </div>
                     <div className="footer__box-emails">
-                        <h4>Email Us</h4>
+                        <p>Email Us</p>
                         <a href="mailto:#">sales@logistics.com.ph</a>
                         <a href="mailto:#">support@logistics.com.ph</a>
                         <a href="mailto:#">hr@logistics.com.ph</a>
@@ -30,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='footer__box'>
-                    <h4>Helpful Links</h4>
+                    <p>Helpful Links</p>
                     <a href="#">Air Freight Services</a>
                     <a href="#">Sea Freight Services</a>
                     <a href="#">Land Freight Services</a>
@@ -40,7 +34,7 @@ const Footer = () => {
                     <a href="#">Blogs</a>
                 </div>
                 <div className="footer__box">
-                    <h4>Connect With Us</h4>
+                    <p>Connect With Us</p>
                     <ul className='footer__socials'>
                         <li className='footer__social'>
                             <a href="#">

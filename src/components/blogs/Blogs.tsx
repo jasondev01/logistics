@@ -1,42 +1,35 @@
-import React from 'react'
-import './blogs.css'
-import Blog1 from '../../../assets/blog1.webp'
-import Blog2 from '../../../assets/blog2.webp'
-import Blog3 from '../../../assets/blog3.webp'
-import Blog4 from '../../../assets/blog4.webp'
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
+import 'swiper/css';
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCoverflow } from "swiper";
+import { EffectCoverflow } from "swiper/modules";
 
 const data = [
     {   
         id: 1,
-        image: Blog1,
+        image: "/assets/blog1.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 2,
-        image: Blog2,
+        image: "/assets/blog2.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 3,
-        image: Blog3,
+        image: "/assets/blog3.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 4,
-        image: Blog4,
+        image: "/assets/blog4.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     }
@@ -56,11 +49,11 @@ const Blogs = () => {
                         slidesPerView={3}
                         loop={false}
                         coverflowEffect={{
-                        rotate: 50,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 1,
-                        slideShadows: false,
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows: false,
                         }}
                         pagination={true}
                         modules={[EffectCoverflow]}
@@ -75,7 +68,7 @@ const Blogs = () => {
                                         <p>
                                             {preview}
                                         </p>
-                                        <a href={link} className='btn btn-primary'>Read More</a>
+                                        <a href={link} className='btn btn-primary' aria-label="Read more about this blog">Read More</a>
                                     </div>
                                 </SwiperSlide>
                                 )

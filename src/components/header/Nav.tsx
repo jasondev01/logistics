@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import Logo from '../../assets/logistics.png'
+import { useState, useEffect } from 'react'
 
 const Nav = () => {
 
@@ -35,7 +34,7 @@ const Nav = () => {
         <nav className={`navbar ${isNavbarVisible ? 'sticky' : ''}`}>
             <div className="container navbar__container">
                 <div className={`navbar__logo ${isNavbarVisible ? 'sticky' : ''}`}>
-                    <img src={Logo} alt="Website Logo" />
+                    <img src="/assets/logistics.png" alt="Website Logo" />
                 </div>
                 <ul className={`navbar__menu ${isMenuOpen ? 'show' : ''}`}>
                     <li className='menu__item'>

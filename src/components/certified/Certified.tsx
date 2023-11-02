@@ -1,6 +1,3 @@
-import React from 'react'
-import './certified.css'
-import CertifiedIMG from '../../../assets/certified.webp'
 
 const Certified = () => {
     return (
@@ -30,7 +27,7 @@ const Certified = () => {
                     </p>
                 </article>
                 <div className="certified__image">
-                    <img src={CertifiedIMG} alt="Certified Image" />
+                    <img src="/assets/certified.webp" alt="Certified Proof" />
                 </div>
             </div>
         </section>

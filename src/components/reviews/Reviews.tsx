@@ -1,36 +1,30 @@
-import React from 'react'
-import './reviews.css'
-import Review1 from '../../../assets/review1.webp'
-import Review2 from '../../../assets/review2.webp'
-import Review3 from '../../../assets/review3.webp'
-import Review4 from '../../../assets/review4.webp'
+
 import { FaQuoteLeft } from 'react-icons/fa'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
+import 'swiper/css';
 
-import { Autoplay } from 'swiper';
+import { Autoplay } from 'swiper/modules';
 
 const data = [
     {
-        image: Review1,
+        image: "/assets/review1.webp",
         name: 'John Michelle',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius?'`,
     },
     {
-        image: Review2,
+        image: "/assets/review2.webp",
         name: 'Catherine Doe',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius?'`,
     },
     {
-        image: Review3,
+        image: "/assets/review3.webp",
         name: 'Brittany John',
         review: `'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa libero pariatur ipsum quos consequuntur in.'`,
     },
     {
-        image: Review4,
+        image: "/assets/review4.webp",
         name: 'John Chiang',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius? dolor sit amet consectetur.'`,
     },
@@ -55,7 +49,7 @@ function Reviews() {
                     slidesPerView={1}
                     grabCursor={true}
                     loop={true}
-                    className="mySwiper reviews"
+                    className="reviews"
                 >
                     {
                         data.map( ({image, name, review}, index) => {

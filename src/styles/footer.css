@@ -71,6 +71,10 @@
     text-decoration: underline;
 }
 
+.footer__box p {
+    font-size: 1.2rem;
+}
+
 .footer__socials {
     display: flex;
     gap: 1.5rem;
