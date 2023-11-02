@@ -98,7 +98,7 @@
         margin: 0 auto;
         flex-wrap: wrap;
         overflow-x: hidden;
-        background: url(../../assets/navmenu_bg.webp);
+        background: url(/logistics/assets/navmenu_bg.webp);
         background-size: cover;
         background-repeat: no-repeat;
     }

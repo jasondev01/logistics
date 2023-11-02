@@ -8,7 +8,7 @@ const Services = () => {
                 <div className='services__items'>
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/air.webp" alt="Air Freight Service" />
+                            <img src="/logistics/assets/air.webp" alt="Air Freight Service" />
                             <h3>Air Freight</h3>
                         </div>
                         <p>
@@ -23,7 +23,7 @@ const Services = () => {
 
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/sea.webp" alt="Sea Freight Service" />
+                            <img src="/logistics/assets/sea.webp" alt="Sea Freight Service" />
                             <h3>Sea Freight</h3>
                         </div>
                         <p>
@@ -39,7 +39,7 @@ const Services = () => {
 
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/land.webp" alt="Land Freight Service" />
+                            <img src="/logistics/assets/land.webp" alt="Land Freight Service" />
                             <h3>Land Freight</h3>
                         </div>
                         <p>
@@ -55,7 +55,7 @@ const Services = () => {
 
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/door.webp" alt="Door to Door Service" />
+                            <img src="/logistics/assets/door.webp" alt="Door to Door Service" />
                             <h3>Door-To-Door</h3>
                         </div>
                         <p>
@@ -71,7 +71,7 @@ const Services = () => {
 
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/broker.webp" alt="Custom Brokerage Service" />
+                            <img src="/logistics/assets/broker.webp" alt="Custom Brokerage Service" />
                             <h3>Customs Brokerage</h3>
                         </div>
                         <p>
@@ -87,7 +87,7 @@ const Services = () => {
 
                     <article className='services__item'>
                         <div className='services__detail-head'>
-                            <img src="/assets/warehousing.webp" alt="Warehousing and Storage Service" />
+                            <img src="/logistics/assets/warehousing.webp" alt="Warehousing and Storage Service" />
                             <h3>Warehousing & Storage</h3>
                         </div>
                         <p>

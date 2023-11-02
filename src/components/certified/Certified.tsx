@@ -27,7 +27,7 @@ const Certified = () => {
                     </p>
                 </article>
                 <div className="certified__image">
-                    <img src="/assets/certified.webp" alt="Certified Proof" />
+                    <img src="/logistics/assets/certified.webp" alt="Certified Proof" />
                 </div>
             </div>
         </section>

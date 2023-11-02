@@ -34,7 +34,7 @@ const Nav = () => {
         <nav className={`navbar ${isNavbarVisible ? 'sticky' : ''}`}>
             <div className="container navbar__container">
                 <div className={`navbar__logo ${isNavbarVisible ? 'sticky' : ''}`}>
-                    <img src="/assets/logistics.png" alt="Website Logo" />
+                    <img src="/logistics/assets/logistics.png" alt="Website Logo" />
                 </div>
                 <ul className={`navbar__menu ${isMenuOpen ? 'show' : ''}`}>
                     <li className='menu__item'>

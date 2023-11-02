@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='footer__overlay'></div>
             <div className='container footer__container'>
                 <div className='footer__box'>
-                    <img src="/assets/logistics.png" alt="Footer Logo" />
+                    <img src="/logistics/assets/logistics.png" alt="Footer Logo" />
                     <a href='#'>Bldg. 10B, Central International Commercial Complex, Malakanyang Road, Manila City, 1302 Philippines</a>
                 </div>
                 <div className="footer__box">

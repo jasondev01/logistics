@@ -24,7 +24,7 @@ const Banner = () => {
 
         >   <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src="/assets/banner1.webp" alt="Happiness in Every Cargo" />
+                    <img src="/logistics/assets/banner1.webp" alt="Happiness in Every Cargo" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>Happiness in Every Cargo.</p>
@@ -37,7 +37,7 @@ const Banner = () => {
            
             <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src="/assets/banner2.webp" alt="We are ISO Certified!" />
+                    <img src="/logistics/assets/banner2.webp" alt="We are ISO Certified!" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>We are ISO Certified!</p>
@@ -49,7 +49,7 @@ const Banner = () => {
             </SwiperSlide>
              <SwiperSlide>
                 <div id='#banner' className='banner'>
-                    <img src="/assets/banner3.webp" alt="We Drive Your Business!" />
+                    <img src="/logistics/assets/banner3.webp" alt="We Drive Your Business!" />
                     <div className='container banner__container'>
                         <article className='banner__content'>
                             <p>We Do More than Logistics.</p>

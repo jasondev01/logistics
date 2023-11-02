@@ -9,22 +9,22 @@ import { Autoplay } from 'swiper/modules';
 
 const data = [
     {
-        image: "/assets/review1.webp",
+        image: "/logistics/assets/review1.webp",
         name: 'John Michelle',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius?'`,
     },
     {
-        image: "/assets/review2.webp",
+        image: "/logistics/assets/review2.webp",
         name: 'Catherine Doe',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius?'`,
     },
     {
-        image: "/assets/review3.webp",
+        image: "/logistics/assets/review3.webp",
         name: 'Brittany John',
         review: `'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa libero pariatur ipsum quos consequuntur in.'`,
     },
     {
-        image: "/assets/review4.webp",
+        image: "/logistics/assets/review4.webp",
         name: 'John Chiang',
         review: `'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius? dolor sit amet consectetur.'`,
     },

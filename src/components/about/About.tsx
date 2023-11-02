@@ -5,7 +5,7 @@ const About = () => {
         <section id='about'>
             <div className="container about__container">
                 <div className="about__image">
-                    <img src="/assets/about_img.webp" alt="A person signing a delivery receipt for a shipment from Logistics that arrived safely." />
+                    <img src="/logistics/assets/about_img.webp" alt="A person signing a delivery receipt for a shipment from Logistics that arrived safely." />
                 </div>
                 <article className='about__content'>
                     <div className='about__content-title'>
@@ -19,23 +19,23 @@ const About = () => {
 
                     <div className='about__content-perks'>
                         <div className='about__content-perk'>
-                            <img src="/assets/check.webp" alt="Guaranteed" />
+                            <img src="/logistics/assets/check.webp" alt="Guaranteed" />
                             <p>Easy booking functionality</p>
                         </div>
                         <div className='about__content-perk'>
-                            <img src="/assets/truck.webp" alt="Guaranteed" />
+                            <img src="/logistics/assets/truck.webp" alt="Guaranteed" />
                             <p>Hassle-free pick-up and delivery</p>
                         </div>
                         <div className='about__content-perk'>
-                            <img src="/assets/tracking.webp" alt="Guaranteed" />
+                            <img src="/logistics/assets/tracking.webp" alt="Guaranteed" />
                             <p>Real-time package tracking</p>
                         </div>
                         <div className='about__content-perk'>
-                            <img src="/assets/checklist.webp" alt="Guaranteed" />
+                            <img src="/logistics/assets/checklist.webp" alt="Guaranteed" />
                             <p>Logistics services made simple</p>
                         </div>
                         <div className='about__content-perk'>
-                            <img src="/assets/globe.webp" alt="Guaranteed" />
+                            <img src="/logistics/assets/globe.webp" alt="Guaranteed" />
                             <p>Global cargo delivery</p>
                         </div>
                     </div>

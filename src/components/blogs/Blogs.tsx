@@ -11,25 +11,25 @@ import { EffectCoverflow } from "swiper/modules";
 const data = [
     {   
         id: 1,
-        image: "/assets/blog1.webp",
+        image: "/logistics/assets/blog1.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 2,
-        image: "/assets/blog2.webp",
+        image: "/logistics/assets/blog2.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 3,
-        image: "/assets/blog3.webp",
+        image: "/logistics/assets/blog3.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     },
     {   
         id: 4,
-        image: "/assets/blog4.webp",
+        image: "/logistics/assets/blog4.webp",
         preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit exercitationem quisquam dolores tempora molestias.',
         link: '#'
     }
